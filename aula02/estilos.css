@@ -113,7 +113,7 @@ h1
     height: 50px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .exercicio7
@@ -122,14 +122,33 @@ h1
 }
 .menu
 {
-    background-color: blue;
-    height: 50px;
+    background-color: rgba(187, 11, 11, 0.954);
+    height: 75px;
     display: flex;
     color: white;
     font-size: 25px;
     justify-content: space-around;
+    align-items: center;
+}
+
+.menu img
+{
+    height: 75px;
 }
 .opcoes
 {
     display: flex;
+}
+.opcoes a
+{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+.opcoes a:hover
+{
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-color:blue ;
 }
